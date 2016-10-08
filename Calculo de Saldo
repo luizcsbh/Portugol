@@ -1,0 +1,17 @@
+inicio
+    real saldo_inicial , juros , tarifa
+    inteiro quant , c
+    escrever "O Saldo Inicial: "
+    ler saldo_inicial
+    escrever "A taxa de juros: "
+    ler juros
+    escrever "A tarifa: "
+    ler tarifa
+    escrever "A quantidade de meses: "
+    ler quant
+    para c de 1 ate quant
+        saldo_inicial <- saldo_inicial + saldo_inicial * ( juros / 100 ) - tarifa
+    proximo
+    escrever "O saldo total é:" , saldo_inicial
+fim
+
