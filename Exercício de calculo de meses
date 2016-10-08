@@ -1,0 +1,18 @@
+inicio
+    real saldo , saldo_inicial , juros , tarifa
+    inteiro quant , c
+    escrever "O valor de Saldo: "
+    ler saldo
+    escrever "A taxa de juros: "
+    ler juros
+    escrever "A tarifa: "
+    ler tarifa
+    saldo_inicial <- saldo
+    c <- 1
+    enquanto saldo < 2 * saldo_inicial faz
+        saldo <- saldo + saldo * ( juros / 100 ) - tarifa
+        c <- c + 1
+    fim enquanto
+    escrever "O saldo dobrado aproximado é:" , saldo
+    escrever "\nA quantidade de meses necessário para dobra o saldo é:" , c
+fim
