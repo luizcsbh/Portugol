@@ -1,0 +1,13 @@
+inicio
+    inteiro contador , quant <- 0
+    texto nome
+    para contador de 1 ate 5
+        ler nome
+        escrever nome
+        se nome = "MARIA" ou nome = "maria" entao
+            quant <- quant + 1
+        fim se
+    proximo
+    escrever "A quantidade de repetição da palavra MARIA é:",quant
+fim
+
