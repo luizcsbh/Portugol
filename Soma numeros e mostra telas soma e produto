@@ -1,0 +1,11 @@
+inicio
+    inteiro num , soma , n1 , produto <- 1
+    para num de 1 ate 4
+        escrever "\ninforme o número: "
+        ler n1
+        soma <- soma + n1
+        produto <- produto * n1
+    proximo
+    escrever "\nA soma é: " , soma
+    escrever "\nO produto é: " , produto   
+fim
